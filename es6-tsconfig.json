@@ -4,13 +4,10 @@
         "strictNullChecks": true,
         "moduleResolution": "node",
         "module": "commonjs",
-        "target": "es5"
+        "target": "es6"
     },
     "compileOnSave": true,
     "include": [
-        "**/*.ts"
-    ],
-    "exclude": [
         "**/*es6.ts",
         "**/*es6.spec.ts"
     ]
